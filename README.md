@@ -1,4 +1,4 @@
-# 🛸 Rick and Morty Explorer
+# 🛸 Rick and Morty Explorer 🥼
 
 > Um projeto Next.js 15 explorando o multiverso de Rick and Morty
 
