@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛸 Rick and Morty Explorer
 
-## Getting Started
+> Um projeto Next.js 15 explorando o multiverso de Rick and Morty
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?style=flat-square&logo=tailwind-css)
+
+## ✨ Sobre
+
+Portal interdimensional criado com Next.js para explorar personagens da série Rick and Morty através da API oficial.
+
+**Desenvolvido por:** Vinícius Rocha 
+**Turma:** 2TDS2    
+**Escola:** SENAI-Valinhos
+
+> *"A programação é como viajar através de dimensões - cada linha de código abre um portal para novas possibilidades."*
+
+---
+
+## 🚀 Funcionalidades
+
+- 🏠 **Home** - Página inicial com informações do projeto
+- 📚 **API Info** - Documentação da Rick and Morty API
+- 👥 **Personagens** - Listagem completa com cards
+- 🔍 **Detalhes** - Página individual de cada personagem
+- ❌ **404** - Página de erro personalizada
+
+---
+
+## 🛠️ Tecnologias
+
+- **Next.js 15** - Framework React
+- **Tailwind CSS** - Estilização
+- **Axios** - Requisições HTTP
+- **React Toastify** - Notificações
+- **Rick and Morty API** - Fonte de dados
+
+---
+
+## 📊 API
+
+**Rick and Morty API**
+- 🌐 **Base:** `https://rickandmortyapi.com/api/`
+- 📖 **Docs:** [rickandmortyapi.com/documentation](https://rickandmortyapi.com/documentation)
+- 🎯 **Endpoint:** `/character`
+
+---
+
+## ⚡ Instalação
 
 ```bash
+# Clone o projeto
+git clone aplicationCRUD
+
+# Entre na pasta
+cd aplicationCRUD
+
+# Instale dependências
+npm install
+
+# Execute o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Acesse:** `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 🎯 Próximos Passos
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] Filtros avançados
+- [ ] Busca por nome
+- [ ] Página de episódios
+- [ ] Favoritos
+- [ ] Dark mode
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**🌟 "Wubba lubba dub dub!" - Rick Sanchez**
