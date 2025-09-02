@@ -1,3 +1,4 @@
+"use client";
 
 import { api } from '@/services/api';
 import Card from '@/components/Card';
@@ -13,14 +14,14 @@ export default async function CharactersPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {characters.map((char) => (
           <div key={char.id}>
-            <Card
-              name={char.name}
-              image={char.image}
-              description={`${char.species} - ${char.status}`}
-              buttonLabel={
-                <Link href={`/characters/${char.id}`} className="block w-full h-full">Detalhes</Link>
-              }
-            />
+            <Link href={`/characters/${char.id}`}>
+              <Card
+                name={char.name}
+                image={char.image}
+                description={`${char.species} - ${char.status}`}
+                buttonLabel="Detalhes"
+              />
+            </Link>
           </div>
         ))}
       </div>
