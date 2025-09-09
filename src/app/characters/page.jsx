@@ -1,4 +1,3 @@
-"use client";
 
 import { api } from '@/services/api';
 import Card from '@/components/Card';

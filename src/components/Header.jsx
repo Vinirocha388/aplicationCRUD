@@ -27,7 +27,7 @@ export default function Header() {
           </Link>
           
           <Link 
-            href="/apiinfo" 
+            href="./apiinfo" 
             className="relative px-4 py-2 font-semibold transition-all duration-300 hover:text-lime-300 group"
           >
             <span className="relative z-10">Sobre a API</span>
@@ -35,7 +35,7 @@ export default function Header() {
           </Link>
           
           <Link 
-            href="/characters" 
+            href="./characters" 
             className="relative px-4 py-2 bg-gradient-to-r from-lime-500 to-green-500 text-green-900 font-bold rounded-lg shadow-lg hover:shadow-xl hover:from-lime-400 hover:to-green-400 transition-all duration-300 transform hover:-translate-y-0.5"
           >
             Personagens
