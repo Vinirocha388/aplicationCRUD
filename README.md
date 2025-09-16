@@ -51,7 +51,7 @@ Portal interdimensional criado com Next.js para explorar personagens da série R
 
 ```bash
 # Clone o projeto
-git clone aplicationCRUD
+git clone https://github.com/Vinirocha388/aplicationCRUD.git
 
 # Entre na pasta
 cd aplicationCRUD
