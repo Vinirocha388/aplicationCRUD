@@ -5,11 +5,9 @@ export default function Home() {
     <section className="relative min-h-[80vh] overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-green-400 via-emerald-500 to-teal-600"></div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-      
       <div className="absolute top-4 sm:top-10 left-4 sm:left-10 w-20 sm:w-32 h-20 sm:h-32 bg-lime-300/20 rounded-full blur-xl animate-pulse"></div>
       <div className="absolute bottom-10 sm:bottom-20 right-10 sm:right-20 w-32 sm:w-48 h-32 sm:h-48 bg-green-300/15 rounded-full blur-2xl animate-pulse delay-700"></div>
       <div className="absolute top-1/2 left-1/4 sm:left-1/3 w-16 sm:w-24 h-16 sm:h-24 bg-yellow-300/10 rounded-full blur-xl animate-pulse delay-1000"></div>
-      
       <div className="relative flex flex-col items-center justify-center gap-6 sm:gap-8 py-12 sm:py-16 px-4 sm:px-8 min-h-[80vh]">
         <div className="text-center space-y-3 sm:space-y-4 animate-fade-in">
           <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-sm rounded-full px-4 sm:px-6 py-2 border border-white/20">

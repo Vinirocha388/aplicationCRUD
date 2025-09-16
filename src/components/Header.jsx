@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
@@ -9,12 +10,14 @@ export default function Header() {
       
       <div className="relative flex justify-between items-center max-w-7xl mx-auto">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 bg-gradient-to-br from-lime-400 to-green-500 rounded-full flex items-center justify-center shadow-lg">
-            <span className="text-green-900 font-black text-lg">R&M</span>
-          </div>
-          <h1 className="text-3xl font-black tracking-wide bg-gradient-to-r from-lime-300 to-green-200 bg-clip-text text-transparent drop-shadow-lg">
-            Rick and Morty CRUD
-          </h1>
+          <Image
+            src="/images/Rick_and_Morty.svg"
+            alt="Logo Rick and Morty"
+            width={250}
+            height={120}
+            className="drop-shadow-lg"
+            priority
+          />
         </div>
 
         <nav className="flex items-center space-x-8">

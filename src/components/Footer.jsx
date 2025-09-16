@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -11,11 +12,17 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0">
           <div className="flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:space-x-4 text-center sm:text-left">
-            <div className="relative">
-              <div className="w-10 sm:w-12 h-10 sm:h-12 bg-gradient-to-br from-emerald-400 via-green-500 to-teal-500 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-2xl transform rotate-12 group-hover:rotate-0 transition-transform duration-500">
-                <span className="text-slate-900 font-black text-base sm:text-lg transform -rotate-12">R&M</span>
+            <div>
+              <div className="w-24 sm:w-32 h-24 sm:h-32 flex items-center justify-center transform hover:scale-110 transition-transform duration-500">
+                <Image
+                  src="/images/Rick_and_Morty.svg"
+                  alt="Logo Rick and Morty"
+                  width={150}
+                  height={150}
+                  className="drop-shadow-lg"
+                  priority
+                />
               </div>
-              <div className="absolute -inset-1 bg-gradient-to-r from-emerald-400 to-green-500 rounded-xl sm:rounded-2xl blur opacity-30 animate-pulse"></div>
             </div>
             <div>
               <div className="text-emerald-200 text-base sm:text-lg font-bold">Rick and Morty CRUD</div>
