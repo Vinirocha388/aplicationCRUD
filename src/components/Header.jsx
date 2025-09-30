@@ -53,6 +53,13 @@ export default function Header() {
           </Link>
           
           <Link 
+            href="./put" 
+            className="relative px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:from-blue-400 hover:to-blue-500 transition-all duration-300 transform hover:-translate-y-0.5"
+          >
+            Editar
+          </Link>
+          
+          <Link 
             href="./delete" 
             className="relative px-4 py-2 bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:from-red-400 hover:to-red-500 transition-all duration-300 transform hover:-translate-y-0.5"
           >
