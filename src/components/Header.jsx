@@ -39,9 +39,24 @@ export default function Header() {
           
           <Link 
             href="./characters" 
+            className="relative px-4 py-2 font-semibold transition-all duration-300 hover:text-lime-300 group"
+          >
+            <span className="relative z-10">Personagens</span>
+            <div className="absolute inset-0 bg-white/10 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300 ease-out"></div>
+          </Link>
+          
+          <Link 
+            href="./post" 
             className="relative px-4 py-2 bg-gradient-to-r from-lime-500 to-green-500 text-green-900 font-bold rounded-lg shadow-lg hover:shadow-xl hover:from-lime-400 hover:to-green-400 transition-all duration-300 transform hover:-translate-y-0.5"
           >
-            Personagens
+            Criar
+          </Link>
+          
+          <Link 
+            href="./delete" 
+            className="relative px-4 py-2 bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:from-red-400 hover:to-red-500 transition-all duration-300 transform hover:-translate-y-0.5"
+          >
+            Deletar
           </Link>
         </nav>
       </div>
