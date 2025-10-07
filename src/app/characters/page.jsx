@@ -1,10 +1,10 @@
 
-import { api } from '@/services/api';
+import axios from 'axios';
 import Card from '@/components/Card';
 import Link from 'next/link';
 
 export default async function CharactersPage() {
-  const res = await api.get('/character');
+  const res = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/character`);
   const characters = res.data.results;
 
   return (

@@ -1,11 +1,11 @@
-import { api } from '@/services/api';
+import axios from 'axios';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 export default async function CharacterDetail({ params }) {
   try {
-    const res = await api.get(`/character/${params.id}`);
+    const res = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/character/${params.id}`);
     const char = res.data;
     
     const getStatusColor = (status) => {
